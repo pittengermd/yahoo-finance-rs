@@ -6,7 +6,7 @@ license = "MIT"
 description = "An API to get financial data from Yahoo."
 keywords = [ "yahoo", "finance", "stocks" ]
 readme = "README.md"
-edition = "2021"
+edition = "2018"
 
 include = [ "Cargo.toml", "LICENSE", "README.md", "src/**/*.rs" ]
 
