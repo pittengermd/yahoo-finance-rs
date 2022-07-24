@@ -19,12 +19,12 @@ chrono = { version = "*", features = [ "serde" ] }
 futures = "*"
 futures-util = { version = "*", default-features = false, features = [ "async-await", "sink", "std" ] }
 market-finance = "*"
-protobuf = "2"
+protobuf = "*"
 reqwest = "*"
 serde = { version = "*", features = [ "derive" ] }
 serde_json = "*"
-snafu = "0.6"
-tokio = { version = "*", default-features = false, features = [ "stream", "rt-threaded", "macros" ]}
+snafu = "*"
+tokio = { version = "*", default-features = false, features = [ "full" ]}
 tokio-tungstenite = { version = "*", features = [ "tls" ] }
 url = "*"
 
@@ -34,4 +34,4 @@ mockito = "*"
 tokio-test = "*"
 
 [build-dependencies]
-protobuf-codegen-pure = "2"
+protobuf-codegen-pure = "*"
